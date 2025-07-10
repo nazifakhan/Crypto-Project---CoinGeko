@@ -1,13 +1,21 @@
 import {  } from 'react'
 
 import './App.css'
+import CoinTable from './Components/CoinTable/CoinTable'
+import Navbar from './Components/CoinTable/Navbar/Navbar'
+import Banner from './Components/CoinTable/Banner/Banner'
 
 function App() {
 
   return (
     <>
-    <p className='text-xl'>hello</p>
-        
+     <div className="min-h-screen bg-black ">
+
+    <Navbar />
+    <Banner />
+    <CoinTable />
+
+    </div>
     </>
   )
 }
